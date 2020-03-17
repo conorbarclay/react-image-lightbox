@@ -108,6 +108,7 @@ Play with the code on the [example on CodeSandbox](https://codesandbox.io/s/l9n3
 | imagePadding                    | number | Padding (px) between the edge of the window and the lightbox. Defaults to `10`.                                                                               |
 | clickOutsideToClose             |  bool  | When `true`, clicks outside of the image close the lightbox. Defaults to `true`.                                                                              |
 | enableZoom                      |  bool  | Set to `false` to disable zoom functionality and hide zoom buttons. Defaults to `true`.                                                                       |
+| loader                          |  node  | Custom loader (will be shown instead default spinner while image loading)                                                                                     |
 | wrapperClassName                | string | Class name which will be applied to root element after React Modal                                                                                            |
 | nextLabel                       | string | `aria-label` set on the 'Next' button. Defaults to `'Next image'`.                                                                                            |
 | prevLabel                       | string | `aria-label` set on the 'Previous' button. Defaults to `'Previous image'`.                                                                                    |
